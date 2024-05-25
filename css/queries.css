@@ -1,0 +1,14 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 425px (Large Phones) */
+/**************************/
+@media (max-width: 26.5625em) {
+    html {
+        font-size: 50%;
+    }
+
+    header {
+        width: 40rem;
+    }
+}
